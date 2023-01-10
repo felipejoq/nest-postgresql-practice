@@ -43,6 +43,13 @@ $ nest start --watch
 
 ___
 
+### ⚠️ Recuperar data de Pruebas:
+```bash
+$ curl 'http://localhost:3000/api/seed'
+```
+
+___
+
 ## Stack:
 + Nestjs
 + PostgreSQL
