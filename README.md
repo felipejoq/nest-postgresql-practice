@@ -15,14 +15,18 @@ ___
 ## Pasos para ejecutar en local:
 ___
 ### 1. Clonar repositorio.
+```bash
+$ git clone https://github.com/felipejoq/nest-postgresql-practice.git
+```
 ___
 ### 2. Instalar las dependencias:
+Navegar a la carpeta del proyecto e instalar dependencias.
 ```bash
 $ yarn install
 ```
 ___
 ### 3. Configurar variables de entorno:
-+ Copiar el archiv .env.template
++ Copiar el archivo .env.template
 + Renombrarlo a .env
 + Configurar las variables.
 ___

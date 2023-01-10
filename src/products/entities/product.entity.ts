@@ -6,10 +6,9 @@ import {
   OneToMany,
   PrimaryGeneratedColumn,
 } from 'typeorm';
-import { ProductImage } from "./product-image.entity";
+import { ProductImage } from './product-image.entity';
 
-// @ts-ignore
-@Entity()
+@Entity({ name: 'products' })
 export class Product {
   @PrimaryGeneratedColumn('uuid')
   id: string;
