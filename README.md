@@ -10,6 +10,7 @@
     + Nest CLI +9v
     + Typescript +4v
     + Postgres +14v
+    + Docker +20v
     + ...
 ___
 ## Pasos para ejecutar en local:
